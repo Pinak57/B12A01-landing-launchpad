@@ -36,6 +36,14 @@ nav button{
 
 /* main part */
 main{
-    margin: 40px 60px;
+    margin: 80px 150px;
+}
+.action-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.action-img img{
+    border-radius: 10px;
 }
 
