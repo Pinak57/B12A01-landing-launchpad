@@ -34,6 +34,10 @@ nav button{
     padding: 5px 20px;
     border-radius: 10px;
     color: #FFFFFF;
+    transition:0.5s;
+}
+.primary-button:hover{
+    background-color: rgb(173, 218, 75);
 }
 
 /* main part */
@@ -95,4 +99,22 @@ main{
 .feedback{
     background-color: #f4f0f0;
     padding: 20px;
+}
+/* optional-section */
+.optional-section{
+    background-color:#f4f0f0 ;
+    text-align: center;
+}
+.optional-1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.optional-1 h1{
+    font-size: 40px;
+}
+.optional-2{
+    padding-bottom: 40px;
+}
+.optional-2 img{
+        border-radius: 20px;
 }
