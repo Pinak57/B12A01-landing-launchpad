@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header section */
+header{
+    background-image: url("/Assets/Hero-bg.png");
+    padding: 40px 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h2{
+    color: blue;
+}
+nav button{
+    height: 30px;
+    padding: 5px 20px;
+
+}
+.header-section{
+    text-align: center;
+    margin: 150px;
+}
+.header-section h1{
+    font-size: 3em;
+}
+.primary-button{
+    background-color: #4E47FF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+/* main part */
+main{
+    margin: 40px 60px;
+}
+
