@@ -38,6 +38,7 @@ nav button{
 main{
     margin: 80px 150px;
 }
+/* action section */
 .action-section{
     display: flex;
     justify-content:space-between;
@@ -47,3 +48,18 @@ main{
     border-radius: 10px;
 }
 
+/* productive-user-section */
+.productive-user-section{
+    margin-top: 40px;
+    background-color:#eaeaf0;
+    text-align: center;
+    padding:20px 80px;
+}
+.productive-user-div{
+    display: flex;
+    justify-content: space-around;    
+}
+.productive-user-div h1{
+    font-size: xxx-large;
+    color: #4E47FF;
+}
