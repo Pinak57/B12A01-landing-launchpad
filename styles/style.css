@@ -32,14 +32,16 @@ nav button{
 }
 .primary-button{
     background-color: #4E47FF;
-    padding: 5px 20px;
+    padding: 15px 20px;
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
     transition:0.5s;
 }
 .primary-button:hover{
     background-color: rgb(173, 218, 75);
+
 }
 
 /* main part */
