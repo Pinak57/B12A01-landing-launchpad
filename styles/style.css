@@ -34,6 +34,7 @@ nav button{
     background-color: #4E47FF;
     padding: 5px 20px;
     border-radius: 10px;
+    border: none;
     color: #FFFFFF;
     transition:0.5s;
 }
@@ -152,11 +153,11 @@ main{
 .footer-section{
     background-color: aliceblue;
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 0px;
 }
 footer ul{
     display: flex;
-    padding-left: 550px;
+    padding-left: 580px;
 }
 footer ul li{
     list-style: none;
@@ -164,4 +165,5 @@ footer ul li{
 }
 footer ul li a{
     text-decoration: none;
+    color: black;
 }
