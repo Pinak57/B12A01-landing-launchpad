@@ -5,7 +5,7 @@ body{
 /* header section */
 header{
     background-image: url("../Assets/Hero-bg.png");
-    padding: 40px 100px;
+    padding: 30px 100px;
 }
 
 header nav{
@@ -15,11 +15,12 @@ header nav{
 nav h2{
     color: blue;
     font-weight:bolder;
-    /* font-size: 40px; */
+    font-size: 40px;
 }
 nav button{
-    height: 30px;
-    padding: 5px 20px;
+    height: 40px;
+    padding: 20px 20px;
+    margin-top: 30px;
 
 }
 .header-section{
@@ -139,12 +140,28 @@ main{
     margin-bottom: 20px;
 }
 .touch input, .touch textarea{
-    width: 550px;
+    width: 500px;
     border: none;
     padding: 10px 20px;
 }
 .touch input , .touch button{
     height: 40px;
 }
-/* Footer-section */
 
+/* Footer-section */
+.footer-section{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 50px 30px;
+}
+footer ul{
+    display: flex;
+    padding-left: 550px;
+}
+footer ul li{
+    list-style: none;
+    padding-right: 30px;
+}
+footer ul li a{
+    text-decoration: none;
+}
